@@ -1,0 +1,246 @@
+Date,Project,Actual hours,Office Hours,Zero day,Assigned Task,My Task,Working dir,Remarks,
+2/1/2025,jioface,,,,"1) Settings-i Save blcklist alert , fetch data from template master and save data 
+2) Notification-I changes and deployment to dev along with config setup and swagger correction",,,,
+3/1/2025,jioface,,,,"1) Notification-i Deploy and test 
+2) MInor Bugs - Registration Stopped due to module-s down and blacklist not happening
+3) getNotificationDropdown API",,,,
+6/1/2025,jioface,,,,"1) Notification-I Testing and Changes along with settings-I changes
+2) List Down External System Url in Excel
+3) TenantName Updation for Vantara",,,,
+7/1/2025,jioface,,,,"1) Discussion on Admin and Settings History Schema 
+2) Vantara Data Migration 
+3) Employee Updation
+4) Camera Deletion
+5) RBAC site delete information shared with maruth",,,,
+8/1/2025,jioface,,,,"1) cameraops change for enable alert flag and geolocation flag along with validation schema 
+2) settings-i changes in API based on schema 
+3) all team meeting in conf6
+4) Call notification api from 3 repos and send OT AND CONFIG by maintaing url of notification and remove middleware check from notification-i",,,,
+9/1/2025,jioface,,,,"1) Registration Testing and Schema change sync in home-s
+2) Discussuion with Amit k jain
+3) Helped Maruth About the jioface and jiocx API",,,,
+10/1/2025,jioface/reports,,,,"1) Help maruth for save and get api
+2) login changes for sending OTP one email and mobile
+3) Notification-i Changes after discussion",,,,
+13/1/2025,jioface,,,,"1) login v2 i deployment process and Testing
+2) Notification-I Changes ",,,,
+14/1/2025,jioface,,,,"1) Notification-i Testing and changes and deployment to dev along with updating it to monolithic repo instead of using a service 
+2) login v2-i deploy to prod, usage analytics code changes to send to prod",,,,
+15/1/2025,jioface,,,,"1) registration issue, NFS failure
+2) Notification and Settings_i changes for camera offline notification",,,,
+16/1/2025,jioface,,,,"1) Documenation for Notification-I Repo
+2) Dashboard API by mrunal and sonal , given by hardik sir",,,,
+17/1/2025,jioface,,,,1) Notification_i Documentation,,,,
+20/1/2025,jioface,,,,"1) RBAC deletion API explaination to mansi and dicusssion for nas data encryption
+2) Disucssion with Amit k jain on geofencing",,,,
+21/1/2025,jioface,,,,"camera data correction bug ,",,,,
+22/1/2025,jioface,,,,"1) attendance processing issue
+2) Sync employee cron job logs save in NAS",,,,
+23/1/2025,jioface,,,,"1) SYNC Employee from SAP all tenants
+2) SAP cron pull request sent , deployment delayed due to server upgrade activity
+3) Employee Code correction for space",,,,
+24/1/2025,jioface,,,,"1) SYNC Employee SAP JMD and RCP
+2) Elastic data correction for JMD and RRL for dupliucate users , deleted some extra records",,,,
+27/1/2025,jioface,,,,"1) Notification alert code review in conf3
+2) Edit camera change in camera merge mansi and shubham change 
+3) syncSAP cron - add logs by year and month
+4) Call with Padmavati mam for observability",,,,
+28/1/2025,jioface/reports,,,,"1) Edit Camera Changes Test 
+2) Insert log API with maruth 
+3) Notification_I Deployment Readiness",,,,
+29/1/2025,jioface,,,,"1) cameraOps-I Change and Test on dev along with GET
+2) employee-i code revert for scrum keep old data if no value coem from scrum
+3) from scrum contractor update that had space in it along with elastic
+4) Audit history correction for utc and IST time , 16:00 PM cut off time for next update if any
+5) Discussion on admin settings history schema and points",,,,
+30/1/2025,jioface,,,,"1) camera health cron changes for notification calling , test and deploy to dev
+2) Sync SAP cron updated to store logs in Shared NAS instead of local NAS , artifact properties added
+3) Call with ankita3 gupta and sunny , file not storing in NAS",,,,
+31/1/2025,jioface,,,,1) Sync employee in sap via form data and save to nas code part,,,,
+3/2/2025,jioface,,,,"1) sync employee sap cron , call migrate api to save file by sending base64 string in req body 
+2) Notification working review
+3) geolocation api for unautorized tab and its export on all records tab and unauthroized entries tab
+4) Settings_i change to throw error when template master data not maintained
+5) Module-s Deployment along with settings_i and template master maintainence",,,,
+4/2/2025,jioface,,,,"1) Geofencing Task Review From Backend 
+2) Delete Employee issue 
+3) Blacklisting issue and updation ",,,,
+5/2/2025,jioface,,,,"1) Delete Employee Code Review in conf3
+2) People Alert-i Bugs Fixed for blacklist to not selected and delay of 12 seconds while scaling pod
+3) discussion at 13 on geofening final design and other queries",,,,
+6/2/2025,jioface,,,,"1) API to get unmapped /unmapped employees with filters and search feature
+2) API to get allowed attendance location for a employee 
+3) Camera-i Changes for geolocation - api change for camera count and camera list for geolocation indicator
+4) only recognition purpose enable for HNH
+5) Delete employee for failed employee of HNH",,,,
+7/2/2025,jioface,,,,"1) Notifdication_i Review with Sir 
+2) DElete camera api updated and employee , camera tested 
+3) geolocation changes",,,,
+10/2/2025,jioface,,,,"1) Geolocation API to add user to geofencing 
+2) Deployment discussion and prepration for notification and delete apis along with deployment",,,,
+11/2/2025,jioface,,,,1) Geolocation API development and Deployment for offlibe alert and delete api with RBAC ,,,,
+12/2/2025,jioface,,,,"1) Geolocation API with changes after testing 
+2) Repo deployment for remaining repos",,,,
+13/2/2025,jioface,,,,"1) Scale pod url maintained in the config
+2) call with amit k jain for geofencing questions
+3) changes in geofencing after discussed on call",,,,
+14/2/2025,jioface,,,,"1) Sprint Planning 
+2) Production issues
+3) Geofencing Changes",,,,
+17/2/2025,jioface,,,,"1) Notification_i - Changes based on bug 
+2) Module-s - Geofencing schema review and changes and little dicussion
+3) RBAC data updation in permission master based on frontend requirement
+4) bulksms portal onboarding - sheinbulk and zivamebulk
+5) employee-i API for grouping of data 
+6) updated roleheader menu item and permission template entries added ",,,,
+18/2/2025,jioface,,,,"1) getLocationByGrouping API 
+2) JNW data in A1 dev tenant to Test geofencing 
+3) Migrate-s Service Syned with Module-s",,,,
+19/2/2025,jioface,,,,"1) reregistration changes related to geofencing 
+2) maricobulk domain onboarded for bulksms portal
+3) geofencing api's check and testing ",,,,
+20/2/2025,jioface,,,,attendance related changes ,,,,
+21/2/2025,jioface,,,,"1) camera createdOn mismatch issue 
+2) attendance related changes for geofencing purpose attendance 
+3) camera health cron issue identified",,,,
+24/2/2025,jioface,,,,"1) notifiication-I template related changes and test and deploy till dev
+2) camera health cron check 
+3) ANPR activity and sanity check",,,,
+25/2/2025,jioface,,,,"1) Geolocation API changes for correct bug of sorting order
+2) Inventory - mssql connect issue - sayali
+3) geofencing attendance changes based on testing - half",,,,
+26/2/2025,jioface,,,,"1) geofencing attendance changes testing 
+2) deblacklisting cron bug fix and issue debug reported by jamnagar
+3) sync employee check ",,,,
+27/2/2025,jioface,,,,"1) RUN sync employee job for 20 date and observer for 19604016 employeeCode
+2) Document attendace testing all cases -3 done 
+3) Geofencing API changes based on frontend integration",,,,
+28/2/2025,jioface,,,, Document attendace testing all cases -3 done ,,,,
+3/3/2025,jioface,,,,deploymwent for deblacklisting cron and peoplealert-i deploy and revert,,,,
+4/3/2025,jioface,,,,"1) SAP JOB RUN FOR HNH EveryDay
+2) DEblacklisting cron debug and config to be update in prod 
+3) Notification -I , Camera Health cron , peoplealert_i and employee-i to be moved or deployed to prod
+4) people alert-i Bug for blacklist duration in case of forever
+5) Reliance jio institute vendor and department master maintain along with adhoc type add",,,,
+5/3/2025,jioface,,,,1) send email and notification from feedback sys-i when product enquiry saved,,,,
+6/3/2025,jioface,,,,"1) config update for feedback sys-i
+2) feedback sys-i code deployed to prod
+3) peoplealert-s update or sync with module_s and its config",,,,
+7/3/2025,jioface,,,,1) go service endpoints,,,,
+10/3/2025,JIOFACE,,,,1) go service check with redis implemenation added and common schemas,,,,
+11/3/2025,jioface,,,,go service tenant specific schemas added along with dbName ,,,,
+12/3/2025,jioface,,,,"go service tenant specific schemas added along with dbName 
+call with jamnagar team ",,,,
+13/3/2025,jioface,,,y,Go service code completed and ready for deployment,,,,
+17/3/2025,jioface,,,,"1) Maker chamber issue 
+2) Sprint planning 
+3) scrum data synced with old scrum - inserted records that were not present
+4) Site Srno correction
+5) Disussion for offline camera ",,,"const arrayToCheck = [...];  // 15 lakh values
+const referenceArray = [...];  // The array to compare against
+// Convert referenceArray into a Set for O(1) lookups
+const referenceSet = new Set(referenceArray);
+// Filter values that are in arrayToCheck but NOT in referenceSet
+const uniqueValues = arrayToCheck.filter(value => !referenceSet.has(value));
+console.log(uniqueValues);  // Values in arrayToCheck but not in referenceArray",
+18/3/2025,jioface,,,,"1) SAP JOb run for all tenants except RCP, RRL AND JAMNAGAR 
+2) SAP job run check
+3) camera offline dicussion ",,,"Curl to bulk update same value for matching feilds
+curl --location 'http://10.21.66.11:9200/jioface_employee/_update_by_query' \
+--header 'Content-Type: application/json' \
+--data '{
+    ""script"": {
+        ""source"": ""ctx._source.activeFlag = params.activeFlag; ctx._source.employeeStatus = params.employeeStatus;"",
+        ""lang"": ""painless"",
+        ""params"": {
+            ""activeFlag"": true,
+            ""employeeStatus"": ""Inactive""
+        }
+    },
+    ""query"": {
+        ""terms"": {
+            ""uniqueFaceId.keyword"": [
+                ""IW9E8SGRPWLB""
+            ]
+        }
+    }
+}'",
+19/3/2025,jioface,,,,"1) mongoose schema for camera offline 
+2) sync job for RRL AND RCP",,,,
+20/3/2025,jioface,,,,"1) logic for offline camera data entry
+2) jiocx reports login issue debug",,,,
+21/03/2025,jioface,,,,"1) camera health code for offline camera 
+2) testing for offline camera feature at 13",,,,
+24/03/2025,jioface,,Leave,,bulksms portal onboarding for snapmintbulk and hellogenniebulk,,,,
+25/03/2025,jioface,,,,"1) go service deployment
+2) sap employee sync for small tenants",,,,
+26/03/2025,jioface,,,,"1) Sync Employee SAP golang code 
+2) SAP sync for jamnagar and rrl",,,,
+27/03/2025,jioface,,,,"1) Sap JOb for run 
+2) sap job code in golang
+3) login v2-i documentation",,,,
+28/03/2025,jioface,,,,"1) SAP job
+2) login v2-i documentation",,,,
+31/03/2025,jioface,,,,"1) RAK issue for contaractor Name
+2) login v2-i documentation  ",,,,
+1/4/2025,jioface,,,,"1) camera health-i code changes for offline feature
+2) login v2-i documentation changes",,,,
+2/4/2025,jioface,,,,"1) camera health code for offline camera 
+2) kt-session regarding registration process",,,,
+3/4/2025,jioface,,,,"1) camera health code for offline camera 
+2) kt-session regarding registration process",,,,
+4/4/2025,jioface,,,,"1) camera health code test and completion 
+2) Attendance KT session ",,,,
+7/4/2025,jioface,,,,"1) bulksms voice survey issue - catorce domain and obdvctest domain created in ppd
+2) disucssion on offline feature solution",,,,
+8/4/2025,jioface,,,,1) registration flow diagram,,,,
+9/4/2025,jioface,,,,"1) notifcation feature KT
+2) Registration flow diagram 
+3) production issue ",,,,
+10/4/2025,jioface,,,,"1) cameraops KT 
+2) camera pod count - pod name with tenants check
+3) delete employee check ",,,,
+11/4/2025,jioface,,,,"1) count for RRL march attendance 
+2) sync sap job check
+3) Geofencing KT",,,,
+14/04/2025,jioface ,,,,1) golang sync job code complete,,,,
+15/04/2025,jioface ,,,,"1) socket repo changes
+2) KT for ANPR repo structure
+3) socket repo changes for deployment",,,,
+16/04/2025,jioface ,,,,"1) Geofencing Deployment Plan 
+2) KT session : collection description and tenant onboarding script 
+3) jioface issue ",,,,
+17/04/25,jioface ,,,,"1) offline discussuin 
+2) scrum 1545 id issue",,,,
+18/04/25,jioface ,,,,"1) scrum logger 
+2) jiocx task , replicating code",,,,
+21/04/25,jioface ,,,,"1) jiocx changes for rrmall in setfinal invoice
+2) add scrum data testing",,,,
+22/04/25,jioface ,,,,"1) sync job KT 
+2) attendance -i changes for geofencing 
+3) deployment - module-s and employee-i with geofencing api and scrum trail data",,,,
+23/04/25,jioface ,,,,1) employee-i changes ,,,,
+24/04/25,jioface ,,,,"1) employee-i changes
+2) home-s and other services along with employee-i deployment",,,,
+25/04/25,jioface ,,,,camera decomission changes,,,,
+28/04/2025,jioface ,,,y,,,,,
+29/04/2025,jioface ,,,y,,,,,
+30/04/2025,jioface ,,,,api for employee details with mapping for geofencing ,,,,
+2/5/2025,jioface ,,,,RBAC Document,,,,
+5/5/2025,jioface ,,,,RBAC Document for Geofencing Entries,,,,
+6/5/2025,jioface ,,Leave,,,,,,
+7/5/2025,jioface ,,,,migrate-s changes and employee-i api change,,,,
+8/5/2025,jioface ,,,,,,,,
+9/5/2025,jioface ,,,,attendance geofencing testing,,,,
+12/5/2025,jioface ,,,,"1) migrate-s cookie code correct and testing 
+2) Attendance-MFA  geofencing implementation",,,,
+13/5/2025,jioface ,,,,"1) call with VABT testing  
+2) service deployment issue",,,,
+14/5/2025,jioface ,,,y,,,,,
+15/5/2025,jioface ,,,,1) Attendance MFA testing and changes,,,,
+16/5/2025,jioface ,,,,1) Attendance MFA testing and changes,,,,
+19/5/2025,jioface ,,,Y,,,,,
+20/5/2025,jioface ,,,y,,,,,
+21/5/2025,jioface ,,,y,,,,,
+22/5/2025,jioface ,,,y,,,,,
+23/5/2025,jioface ,,,y,,,,,
